@@ -130,11 +130,13 @@ const style = StyleSheet.create({
     image: {
         width: 300,
         height: 250,
+        borderRadius: 100,
+        borderWidth: 0.5,
         
     },
     imagePlacholder: {
-        width: 160,
-        height: 140,
+        width: 300,
+        height: 250,
         borderRadius: 100,
         borderWidth: 0.5,
         borderColor: "black",

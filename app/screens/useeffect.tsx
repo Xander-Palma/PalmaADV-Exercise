@@ -50,7 +50,7 @@ export default function Effect() {
           >
           <Text 
             style={{
-              borderColor: '#000000',
+              borderColor: 'red',
               borderStyle: "solid",
               borderWidth: 1,
               textAlign: "center",
