@@ -15,7 +15,7 @@ function reducer(state: any, action: any) {
                 index === action.payload.index ? action.payload.newTaskk : task
             );
         case "remove":
-            return state.filter((_, index: number) => index !== action.payload.toRemoveIndex);
+            return state.filter(( _ : any, index: number) => index !== action.payload.toRemoveIndex);
         default:
             return state;
     }

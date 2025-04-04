@@ -25,7 +25,10 @@ export default function TabTwoScreen() {
     { title: "Exercise",
       description: "Create a simple CRUD using useContenxt and useReducer",
       routerPush: "/screens/crud" as const,},
-    { title: "Exercise"},
+    { title: "Exercise",
+      description: "Create a simple quiz using Open Trivia Database API",
+      routerPush: "/screens/quiz" as const,
+    },
     { title: "Exercise"},
     { title: "Exercise" },
   ];

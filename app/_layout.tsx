@@ -55,7 +55,11 @@ export default function RootLayout() {
       />
        <Stack.Screen 
         name="screens/crud" 
-        options={{ title: "useContext and useReducer screen" }} 
+        options={{ title: "CRUD Screen" }} 
+      />
+       <Stack.Screen 
+        name="screens/quiz" 
+        options={{ title: "Quiz screen" }} 
       />
       </Stack>
       <StatusBar style="auto" />
