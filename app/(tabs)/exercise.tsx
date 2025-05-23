@@ -29,8 +29,14 @@ export default function TabTwoScreen() {
       description: "Create a simple quiz using Open Trivia Database API",
       routerPush: "/screens/quiz" as const,
     },
-    { title: "Exercise"},
-    { title: "Exercise" },
+    { title: "Exercise",
+      description: "Use a React Hook Form only for registration and login screens",
+      routerPush: "/screens/exercise8/login-and-registration" as any,
+      },
+    { title: "Exercise",
+        description: "Use a React Hook Form with Firebase Authentication on registration and login screens",
+        routerPush: "/screens/exercise9/login-and-registration" as any,
+      },
   ];
   
 
